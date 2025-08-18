@@ -5,7 +5,7 @@
 1. Create a plist file:
 
 ```bash
-nano ~/Library/LaunchAgents/com.<your_username>.filesorter.plist
+nano ~/Library/LaunchAgents/com.tanmac.filesorter.plist
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -13,7 +13,7 @@ nano ~/Library/LaunchAgents/com.<your_username>.filesorter.plist
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.username.filesorter</string>
+    <string>com.tanmac.filesorter</string>
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/python3</string>
@@ -32,4 +32,7 @@ nano ~/Library/LaunchAgents/com.<your_username>.filesorter.plist
 </plist>
 
 
-launchctl load ~/Library/LaunchAgents/com.<your_username>.filesorter.plist
+launchctl load ~/Library/LaunchAgents/com.tanmac.filesorter.plist
+
+
+- Replace 'tanmac' with your device username.
