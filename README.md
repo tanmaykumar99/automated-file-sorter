@@ -24,5 +24,6 @@ This helps keep your files organized without manual effort.
 - No external packages required
 
 Install dependencies with:
-
+```
 pip install -r requirements.txt
+```
